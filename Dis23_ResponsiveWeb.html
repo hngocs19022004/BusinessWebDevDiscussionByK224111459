@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu về UEL</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            padding: 10px;
+        }
+        @media (min-width: 600px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        .grid-item {
+            padding: 20px;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <h1>Giới thiệu về UEL</h1>
+        <p class="grid-item">Trường Đại học Kinh tế - Luật (UEL) là một trong những cơ sở đào tạo hàng đầu thuộc Đại học Quốc gia TP.HCM.</p>
+        <p class="grid-item">UEL nổi bật với các chương trình đào tạo chất lượng cao, gắn kết chặt chẽ với thực tiễn và xu thế toàn cầu.</p>
+        <p class="grid-item">Trường tập trung vào nghiên cứu khoa học, đổi mới sáng tạo và phát triển nguồn nhân lực chất lượng cao.</p>
+    </div>
+</body>
+</html>
